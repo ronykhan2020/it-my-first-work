@@ -19,5 +19,57 @@ li:hover{
     border: 2px solid black;
     padding: 5px;
     border-radius: 10px;
-    
+
 }
+.container2{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+
+}
+p{
+    border: 2px solid red;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+#my-work{
+    padding: 20px;
+    font-size: 20px;
+}
+
+ #my-work::first-line{
+    font-size: 25px;
+    
+
+ }
+
+
+ #my-name{
+    font-size: 20px;
+    margin-left: 150px;
+    padding: 10px;
+
+ }
+
+ .work-time{
+    padding: 10px;
+
+    font-size: 20px;
+    border-radius: 10px;
+    border: 5px solid rgb(20 184 166);
+
+ }
+ .work-time:hover{
+    color: chocolate;
+    box-shadow: 2px 4px 6px red;
+    font-size: 20px;
+    font-weight: bold;
+   
+    text-decoration: underline;
+
+ }
+
+
+
